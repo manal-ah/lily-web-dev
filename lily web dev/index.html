@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lily Web Dev — Simple Websites for Small Businesses</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============================================================
+     NAVBAR
+     ============================================================ -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#top" class="logo">Lily <span class="dot">●</span> Web Dev</a>
+    <ul class="nav-links">
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#pricing">Packages</a></li>
+      <li><a href="#order">Order</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <a href="#order" class="nav-cta">Start a Project</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#portfolio">Portfolio</a>
+    <a href="#pricing">Packages</a>
+    <a href="#order">Order</a>
+    <a href="#faq">FAQ</a>
+    <a href="#order" class="nav-cta" style="margin-top:12px; text-align:center;">Start a Project</a>
+  </div>
+</nav>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="hero" id="top">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <div class="hero-eyebrow"><span class="sparkle">✦</span> Simple Websites for Small Businesses & Individuals</div>
+      <h1>Lily <span class="accent">Web</span> Dev</h1>
+      <p class="subtitle">A clean, simple website for your business or yourself </p>
+      <div class="hero-ctas">
+        <a href="#pricing" class="btn btn-primary" id="viewPackagesBtn">View Packages →</a>
+        <a href="#portfolio" class="btn btn-secondary">See My Work</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="browser-card browser-1">
+        <div class="browser-bar">
+          <span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span>
+          <span class="browser-url">yoursite.com</span>
+        </div>
+        <div class="browser-body browser-body-1">
+          <div class="mock-line mock-title"></div>
+          <div class="mock-line mock-text"></div>
+          <div class="mock-line mock-text short"></div>
+          <div class="mock-button"></div>
+        </div>
+      </div>
+      <div class="browser-card browser-2">
+        <div class="browser-bar">
+          <span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span>
+        </div>
+        <div class="browser-body browser-body-2">
+          <div class="mock-grid">
+            <div class="mock-box"></div>
+            <div class="mock-box"></div>
+            <div class="mock-box"></div>
+          </div>
+        </div>
+      </div>
+      <div class="code-bracket">&lt;/&gt;</div>
+      <div class="hero-badge"><span class="pulse"></span> Building now</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     ABOUT / NOTE
+     ============================================================ -->
+<section class="about-note">
+  <div class="container">
+    <div class="note-card">
+      <div class="note-icon">💌</div>
+      <p class="note-text">Hi, I'm Lily a software engineering student! A little secret: <strong>I built this exact website myself.</strong> every page, every button, every little animation you see here. So when I say I can build you a clean, simple website, this page is my proof, not just a promise. I handle all the technical parts myself, so you don't need to know anything about coding, hosting, or websites at all , you just tell me what you need, and I take care of the rest.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PORTFOLIO
+     Currently 2 portfolio slots. To add more of your own projects:
+     1. Duplicate a whole .portfolio-card block below.
+     2. Replace the src on the <img> (or swap in a live link via the
+        "View Live Site" button's href) with your own project preview.
+     3. Update the title/description text to describe that project.
+     ============================================================ -->
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Portfolio</span>
+      <h2>My Work</h2>
+      <p>Project I've built  </p>
+    </div>
+    <div class="portfolio-grid">
+      <div class="portfolio-card">
+        <div class="browser-card portfolio-browser">
+          <div class="browser-bar">
+            <span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span>
+            <span class="browser-url">lilyeditingstudio.com</span>
+          </div>
+<div class="browser-body portfolio-thumb pf-a">
+  <img src="project1.png" alt="Lily Editing Studio website screenshot" style=" object-fit:cover; display:blok;">
+</div>
+        </div>
+        <div class="portfolio-card-info">
+          <h3>Personal Freelance Site : Video Editing</h3>
+          <p>A fully responsive single page site I designed and coded from scratch for my own video editing business.features a live pricing calculator with extras, an order form connected to email, and a portfolio gallery.</p>
+          <a href="https://lilyeditingstudio.netlify.app" class="portfolio-link" target="_blank" rel="noopener">View Live Site →</a>
+        </div>
+      </div>
+
+    <p class="portfolio-note">More projects coming soon as I take on new clients!</p>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing" id="pricing">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Launch Pricing</span>
+      <h2>Packages</h2>
+      <p>Simple, friendly pricing (these are introductory rates while I build up my portfolio, so it's a great time to get a great deal.)</p>
+    </div>
+
+    <div class="pricing-grid">
+      <!-- Starter -->
+      <div class="price-card">
+        <div class="tier-name">Starter</div>
+        <h3>Single Page Site</h3>
+        <div class="price-amount"><span class="num">$40</span><span class="per">/ project</span></div>
+        <p class="desc">One clean scrolling page : perfect for a simple online presence without needing multiple sections.</p>
+        <ul class="price-features">
+          <li><span class="check">✓</span> 1 scrolling page (intro, about/services, contact)</li>
+          <li><span class="check">✓</span> Looks great on phone & computer</li>
+          <li><span class="check">✓</span> 1 contact form (just an email)</li>
+          <li><span class="check">✓</span> 2 rounds of changes</li>
+          <li><span class="check">✓</span> Delivered in 3-5 days once I have your content</li>
+        </ul>
+        <div class="best-for"><strong>Best for:</strong> personal portfolios, solo freelancers, small single service businesses, "coming soon" pages</div>
+        <a href="#order" class="btn btn-card" onclick="preselectPackage('Starter - $40')">Choose Starter</a>
+      </div>
+
+      <!-- Standard -->
+      <div class="price-card featured">
+        <span class="featured-tag">Most Popular</span>
+        <div class="tier-name">Standard</div>
+        <h3>Multi-Page Site</h3>
+        <div class="price-amount"><span class="num">$75</span><span class="per">/ project</span></div>
+        <p class="desc">Several connected pages ( great for businesses that need to show more, like a menu, services, or a dedicated about page.)</p>
+        <ul class="price-features">
+          <li><span class="check">✓</span> 3-4 separate pages (e.g. Home, About, Menu/Services, Contact)</li>
+          <li><span class="check">✓</span> Looks great on phone & computer</li>
+          <li><span class="check">✓</span> 1 contact form</li>
+          <li><span class="check">✓</span> 3 rounds of changes</li>
+          <li><span class="check">✓</span> Delivered in 5-7 days once I have your content</li>
+        </ul>
+        <div class="best-for"><strong>Best for:</strong> restaurants/cafés needing a menu page, small businesses with multiple services, anyone wanting a more established feel</div>
+        <a href="#order" class="btn btn-card" onclick="preselectPackage('Standard - $75')">Choose Standard</a>
+      </div>
+    </div>
+
+    <!-- Interactive Extras Builder -->
+    <div class="extras-builder" id="extrasBuilder">
+      <div class="extras-head">
+        <div class="extras-head-text">
+          <span class="dot">✦</span>
+          <div>
+            <h3>Build Your Quote</h3>
+            <p>Pick a package, then add any extras you'd like — your estimated total updates as you go.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="extras-package-toggle" id="extrasPackageToggle">
+        <button type="button" class="pkg-pill active" data-package="starter" data-price="40">Starter <span>$40</span></button>
+        <button type="button" class="pkg-pill" data-package="standard" data-price="75">Standard <span>$75</span></button>
+      </div>
+
+      <div class="extras-options" id="extrasOptions">
+        <label class="extra-row">
+          <input type="checkbox" class="extra-check" data-label="Extra page" data-price="15">
+          <span class="extra-row-main">
+            <span class="extra-row-name">📄 Extra page</span>
+            <span class="extra-row-detail">e.g. a dedicated FAQ or gallery page</span>
+          </span>
+          <span class="extra-row-price">+$15</span>
+        </label>
+
+        <label class="extra-row">
+          <input type="checkbox" class="extra-check" data-label="Extra form" data-price="10">
+          <span class="extra-row-main">
+            <span class="extra-row-name">📝 Extra form</span>
+            <span class="extra-row-detail">e.g. a separate booking/reservation form</span>
+          </span>
+          <span class="extra-row-price">+$10</span>
+        </label>
+
+        <label class="extra-row">
+          <input type="checkbox" class="extra-check" data-label="Custom brand colors" data-price="10">
+          <span class="extra-row-main">
+            <span class="extra-row-name">🎨 Custom brand colors</span>
+            <span class="extra-row-detail">I'll match your logo/brand colors instead of a default palette</span>
+          </span>
+          <span class="extra-row-price">+$10</span>
+        </label>
+
+        <label class="extra-row">
+          <input type="checkbox" class="extra-check" data-label="Faster delivery" data-price="15">
+          <span class="extra-row-main">
+            <span class="extra-row-name">⚡ Faster delivery</span>
+            <span class="extra-row-detail">Cuts the timeline roughly in half</span>
+          </span>
+          <span class="extra-row-price">+$15</span>
+        </label>
+
+        <label class="extra-row">
+          <input type="checkbox" class="extra-check" data-label="Custom domain setup" data-price="15">
+          <span class="extra-row-main">
+            <span class="extra-row-name">🌐 Custom domain setup</span>
+            <span class="extra-row-detail">e.g. yourbusiness.com instead of a free address , you purchase the domain yourself (usually $10-15/year ) and I'll connect it to your site. Don't want this? Your site still works perfectly on a free address, just with a slightly longer link.</span>
+          </span>
+          <span class="extra-row-price">+$15</span>
+        </label>
+      </div>
+
+      <div class="extras-summary">
+        <div class="extras-summary-text">
+          <span class="extras-summary-label">Estimated Total</span>
+          <span class="extras-summary-note" id="extrasSummaryNote">Starter package, no extras yet</span>
+        </div>
+        <div class="extras-summary-total" id="extrasTotal">$40</div>
+      </div>
+      <a href="#order" class="btn btn-primary extras-cta" id="extrasCta" onclick="sendQuoteToForm()">Use This Quote →</a>
+      <p class="extras-disclaimer">This is an estimate to help you plan (final pricing is confirmed with Lily before any payment. Domain purchase cost (if chosen) is separate and paid directly to the domain provider, not to Lily.) </p>
+    </div>
+
+    <!-- Payment policy -->
+    <div class="payment-policy">
+      <div class="policy-icon">💸</div>
+      <p>To keep things fair for both of us: <strong>50% of your package price is due upfront via PayPal</strong> before I start your project. The remaining 50% is due before I send over your final website files. I'll walk you through this by email after you submit your order below.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     ORDER FORM
+     ============================================================ -->
+<section class="order" id="order">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Let's Build Something</span>
+      <h2>Start Your Project</h2>
+      <p>Fill out the form below , don't worry about getting everything perfect, we'll sort out the details together by email.</p>
+      <p class="faq-nudge">💡 Have questions before ordering? <a href="#faq">Check the FAQ below</a> it covers most of what people usually ask.</p>
+    </div>
+
+    <div class="order-wrap">
+      <div class="order-side">
+        <h3>How it works</h3>
+        <p>No tech knowledge needed , just answer in your own words and I'll take care of the rest.</p>
+        <div class="order-steps">
+          <div class="order-step">
+            <div class="num">1</div>
+            <div class="text"><strong>Tell me about your project</strong><span>Fill out the form with whatever you know , it's okay if it's not detailed.</span></div>
+          </div>
+          <div class="order-step">
+            <div class="num">2</div>
+            <div class="text"><strong>We chat by email</strong><span>I'll confirm details and answer any questions you have.</span></div>
+          </div>
+          <div class="order-step">
+            <div class="num">3</div>
+            <div class="text"><strong>50% upfront via PayPal</strong><span>Once confirmed, I'll send a payment request to get started.</span></div>
+          </div>
+          <div class="order-step">
+            <div class="num">4</div>
+            <div class="text"><strong>I build your site</strong><span>You'll see drafts along the way and can request changes.</span></div>
+          </div>
+          <div class="order-step">
+            <div class="num">5</div>
+            <div class="text"><strong>Remaining 50% + delivery</strong><span>Final payment, then your finished website files are all yours.</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="order-form">
+        <!--
+          IMPORTANT — connect this form to receive orders by email:
+          1. Go to https://formspree.io and make a free account.
+          2. Create a new form, copy the endpoint URL it gives you
+             (looks like https://formspree.io/f/xxxxxxxx).
+          3. Paste that URL into the action="" attribute below,
+             replacing YOUR_FORMSPREE_ENDPOINT_HERE.
+          Until you do this, the form will only show a thank-you
+          message on screen — it will NOT email you anything.
+        -->
+        <form id="orderForm" action="https://formspree.io/f/mzdljgvg" method="POST" novalidate>
+
+          <!-- Order summary: filled in automatically when a client uses
+               the "Use This Quote" button up in the Packages section.
+               Hidden until there's something to show. -->
+          <div class="order-summary-box" id="orderSummaryBox" style="display:none;">
+            <div class="order-summary-title">Your Selected Order</div>
+            <div class="order-summary-package" id="orderSummaryPackage"></div>
+            <ul class="order-summary-extras" id="orderSummaryExtras"></ul>
+            <div class="order-summary-total-row">
+              <span>Estimated Total</span>
+              <span id="orderSummaryTotal"></span>
+            </div>
+          </div>
+          <!-- This hidden field carries the same breakdown into the email you receive -->
+          <input type="hidden" id="orderSummaryHidden" name="order_summary" value="">
+
+          <div class="form-row">
+            <label for="name">Your Name <span class="req">*</span></label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email Address <span class="req">*</span></label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+
+          <div class="form-row">
+            <label for="package">Which package? <span class="req">*</span></label>
+            <select id="package" name="package" required>
+              <option value="" disabled selected>Choose a package...</option>
+              <option value="Starter - $40">Starter : Single Page Site ($40)</option>
+              <option value="Standard - $75">Standard : Multi-Page Site ($75)</option>
+              <option value="Not sure yet">Not sure yet , help me choose</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="purpose">What is your website for? <span class="req">*</span></label>
+            <textarea id="purpose" name="purpose" placeholder="e.g. a restaurant, my personal portfolio, a small shop, a hobby project..." required></textarea>
+          </div>
+
+          <div class="form-row">
+            <label for="pages">What pages or sections do you need?</label>
+            <textarea id="pages" name="pages" placeholder="e.g. Home, About, Menu, Contact , it's okay to just guess!"></textarea>
+          </div>
+
+          <div class="form-row">
+            <label for="branding">Do you already have a logo or specific brand colors?</label>
+            <textarea id="branding" name="branding" placeholder="e.g. 'Yes, I have a logo' or 'No, I don't have anything yet' or describe colors you like. (Keep in mind this is an extra for 10$)"></textarea>
+          </div>
+
+          <div class="form-row">
+            <label for="content_ready">Do you have your text/content ready?</label>
+            <select id="content_ready" name="content_ready">
+              <option value="" disabled selected>Choose one...</option>
+              <option value="Yes, I have it ready">Yes, I have it ready</option>
+              <option value="No, I need help writing it">No, I need help writing it</option>
+              <option value="Some of it">Some of it</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="drive_link">Google Drive Link (optional)</label>
+            <input type="url" id="drive_link" name="drive_link" placeholder="Paste a Google Drive link here if you have photos, videos, or files you want included" />
+            <p class="form-hint">Make sure link sharing is turned on so I can access your files.</p>
+          </div>
+
+          <div class="form-row">
+            <label for="notes">Anything else I should know?</label>
+            <textarea id="notes" name="notes" placeholder="Any other details, questions, or ideas..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary submit-btn">Send My Project Details ✦</button>
+
+          <div class="payment-note">
+            <span class="ico">💌</span>
+            <span>After you submit, I'll email you to confirm details and send a PayPal payment request for 50% of your package price. Work begins once that's received , the remaining 50% is due before I deliver your final files.</span>
+          </div>
+        </form>
+
+        <div class="form-success" id="formSuccess">
+          <div class="check-circle">✓</div>
+          <h3>Thank you, your project request is in!</h3>
+          <p>I'll get back to you within 24 hours via email to chat next steps. Excited to build something great for you! 🎀</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FAQ
+     ============================================================ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">FAQ</span>
+      <h2>Frequently Asked Questions</h2>
+      <p>New to this? Totally normal , here are answers to what people usually ask.</p>
+    </div>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          I don't know anything about websites, is that okay?
+          <span class="icon-wrap">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Completely okay , that's exactly who I built this for! You don't need to know anything technical. Just tell me what your business or project is about, and I'll handle everything else: design, coding, making it work on phones and computers, all of it.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What do I need to provide you?
+          <span class="icon-wrap">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Just the basics: what your business/project is, what you'd like the site to say, and any photos or logos you already have. If you don't have text written yet, that's okay too . just let me know in the form and we can figure it out together.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How long will my website take?
+          <span class="icon-wrap">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            A single-page site usually takes 3-5 days, and a multi-page site takes 5-7 days . both starting from when I actually have your content (text, photos, etc.). The biggest thing that can slow things down is waiting on content, so the faster you can send what you have, the faster your site is ready!
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What if I want changes after it's done?
+          <span class="icon-wrap">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Every package includes a few rounds of revisions (2 for Starter, 3 for Standard), so just tell me what you'd like adjusted and I'll make the changes. If you need something added later on beyond that, we can always discuss it separately.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How does payment work?
+          <span class="icon-wrap">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Simple: 50% of your package price is due upfront via PayPal before I begin working, and the remaining 50% is due before I send your final website files. This keeps things fair for both of us . I'll send you a PayPal request by email once we've confirmed your project details.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What's the difference between a free site address and a custom domain?
+          <span class="icon-wrap">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            By default, your website is hosted on a free address (something like yourname.netlify.app), which works perfectly and costs nothing. If you'd like a custom domain instead (like yourbusiness.com), you can add that as an extra , you'll purchase the domain yourself from a site (usually $10-15/year, paid directly to them, not to me), and I'll connect it to your site for you. This means the domain is fully yours to keep, even if you ever work with someone else in the future.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo">Lily <span class="dot">●</span> Web Dev</div>
+      <div class="footer-social">
+        <a href="https://instagram.com/lilywebdesigns" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+        <a href="lily.edits.studio@gmail.com" aria-label="Email">✉</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Lily Web Dev. All rights reserved.</span>
+      <span>Made with ✨ for people who just want a simple website.</span>
+    </div>
+  </div>
+</footer>
+ 
+<script src="script.js"></script>
+
+</body>
+</html>
